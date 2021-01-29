@@ -6,7 +6,7 @@ import adafruit_bme680
 
 ledPin = 25
 
-productUID = "com.your_company.your_name:pi_pico"
+productUID = "com.your-company.your-name:pi_pico"
 
 led = Pin(ledPin, Pin.OUT)
 i2c = I2C(0)
@@ -41,4 +41,4 @@ while True:
 
     # Turn off the LED
     led.value(0)
-    utime.sleep(3600)
+    utime.sleep(15)
